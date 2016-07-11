@@ -1,0 +1,85 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+nav {
+  background-color: tomato;
+  padding: 0 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li > a {
+  color: papayawhip;
+  text-decoration: none;
+  float: left;
+  padding: 20px;
+}
+nav li > a:hover {
+  color: tomato;
+  background-color: papayawhip;
+}
+.form-item {
+  padding: 5px 0;
+}
+.form-item label {
+  display: inline-block;
+  width: 90px;
+  padding-right: 10px;
+  text-align: right;
+  vertical-align: top;
+}
+.form-item input[type=text],
+.form-item input[type=email] {
+  width: 250px;
+  padding: 5px;
+}
+.form-item textarea {
+  width: 400px;
+  height: 150px;
+  padding: 5px;
+}
+.form-item input[type=submit] {
+  margin-left: 100px;
+  font-size: 36px;
+}
+#chatroom {
+  background: #DDD;
+  width: 800px;
+  height: 300px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+}
+#chatroom p {
+  padding: 0 15px;
+}
+.chatbox input[type=text] {
+  font-size: 14px;
+  width: 700px;
+  padding: 5px;
+  float: left;
+  margin-right: 10px;
+}
+.chatbox input[type=submit] {
+  -webkit-appearance: none;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: tomato;
+  color: papayawhip;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.8);
+  padding: 5px;
+  width: 76px;
+}
+.connected {
+  font-size: 12px;
+  color: gray;
+}

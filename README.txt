@@ -1,0 +1,1 @@
+Make sure that MongoDB is installed and running if you want persistence.
